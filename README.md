@@ -1,6 +1,7 @@
 # [cultofthepartyparrot.com](http://cultofthepartyparrot.com)
 
 [![Build Status](https://travis-ci.org/jmhobbs/cultofthepartyparrot.com.svg?branch=master)](https://travis-ci.org/jmhobbs/cultofthepartyparrot.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a923b5c1-d312-4530-aa1f-5ab01a588cfc/deploy-status)](https://app.netlify.com/sites/cultofthepartyparrot/deploys)
 
 ```
                           ........:oo:........
@@ -38,7 +39,7 @@
       ``+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmhooh
 ```
 
-The only Slack reaction gif's you'll ever need.
+The only Slack reaction gifs you'll ever need.
 
 ## Thanks
 
@@ -109,7 +110,7 @@ The only Slack reaction gif's you'll ever need.
  * [@zix99](https://github.com/zix99) for [ceiling parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/186)
  * [@PretzelCA](https://github.com/PretzelCA) for [Discord bot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/187)
  * [@matthewjwolff](https://github.com/matthewjwolff) for [mardi gras parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/194)
- * [@Darth-Arminius](https://github.com/Darth-Arminius) for [sith parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/198)
+ * [@Darth-Arminius](https://github.com/Darth-Arminius) for [sith parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/198) and [various housekeeping contributions](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/350)
  * [@emmajam](https://github.com/emmajam) for [bitcoin parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/201)
  * [@juniormucciolo](https://github.com/juniormucciolo) for [portal parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/203)
  * [@mrkolby](https://github.com/mrkolby) for [flying money parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/208), [hard hat parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/206), [troll parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/207), [mustache parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/204), [bunny parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/216) and [Norwegian Blue parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/218)
@@ -127,21 +128,28 @@ The only Slack reaction gif's you'll ever need.
  * [@georgegillams](https://github.com/georgegillams) for [Open Source parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/253)
  * [@unlobito](https://github.com/unlobito) for [trans flag parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/254)
  * [@borisrev](https://github.com/borisrev) for [spy parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/255)
- * [@Jegama](https://github.com/Jegama) for [Calvinist parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/258)
+ * [@Jegama](https://github.com/Jegama) for [Calvinist parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/258), [flower parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/307) and [laptop parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/288)
  * [@oXis](https://github.com/oXis) for [French parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/261)
  * [@dp12](https://github.com/dp12) for [link to emacs parrot-mode](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/274)
+ * [@uberchemist](https://github.com/uberchemist) for [HD Beer Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/292), [so many parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/312), [like, a lot of parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/303) and [basically all the parrots](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/300)
+ * [@jpac-run](https://github.com/jpac-run) for [fix Portugal Parrot name](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/313)
+ * [@jenlersadnie](https://github.com/jenlersadnie) for [Party Sloth](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/316)
+ * [@kareiva](https://github.com/kareiva) for [Lithuania Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/323)
+ * [@tgockel](https://github.com/tgockel) for [build script uglifycss detection](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/335) and [build script improvements](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/336)
+ * [@oibind](https://github.com/oibind) for [link to parrot.today](https://github.com/jmhobbs/cultofthepartyparrot.com/issues/342)
 
 # Contributing!
 
  1. Add your parrot gif to `parrots/` and append an entry to `parrots.json`
+ 1. Make sure your parrot gif file is named [name]parrot.gif in all lower case e.g. `exampleparrot.gif`
  1. Open a PR
  1. PARTY
 
 # Deploying!
 
  1. `npm install`
- 1. `gulp build`
- 1. Upload it somewhere!
+ 1. `bash make build`
+ 1. Upload the contents of `dist/` somewhere!
 
 # Automated Upload
 

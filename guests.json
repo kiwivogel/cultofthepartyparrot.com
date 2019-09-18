@@ -15,12 +15,14 @@
     "tip": "C! A! P! S! CAPS! CAPS! CAPS!!."
   },
   {
-    "gif": "fieriparrot.gif",
-    "name": "Guy Fieri Parrot",
+    "gif": "partyfieri.gif",
+    "hd": "hd/partyfieri.gif",
+    "name": "Party Guy Fieri",
     "tip": "One way ticket to flavor town!"
   },
   {
     "gif": "witnessprotectionparrot.gif",
+    "hd": "hd/witnessprotectionparrot.gif",
     "name": "Witness Protection Parrot",
     "tip": "I wonder who this guy is?"
   },
@@ -50,6 +52,7 @@
   },
   {
     "gif": "dogeparrot.gif",
+    "hd": "hd/dogeparrot.gif",
     "name": "Doge Parrot",
     "tip": "Wow. Such party."
   },
@@ -65,6 +68,59 @@
   {
     "hd": "hd/stubparrot.gif",
     "name": "Stub Parrot",
-    "tip": "// TODO"   
+    "tip": "// TODO"
+  },
+  {
+    "hd": "hd/party-k8s.gif",
+    "name": "Party Kubernetes",
+    "tip": "Party Borg would have been better :("
+  },
+  {
+    "hd": "hd/partycage.gif",
+    "name": "Party Cage"
+  },
+  {
+    "hd": "hd/batparrot.gif",
+    "name": "Bat Parrot",
+    "tip": "I'M BATMAN"
+  },
+  {
+    "hd": "hd/partysloth.gif",
+    "name": "Party Sloth"
+  },
+  {
+    "hd": "hd/partyblob.gif",
+    "name": "Party Blob"
+  },
+  {
+    "gif": "partygritty.gif",
+    "hd": "hd/partygritty.gif",
+    "name": "Party Gritty"
+  },
+  {
+    "hd": "hd/cryingjordanparrot.gif",
+    "name": "Crying Jordan Parrot"
+  },
+  {
+    "hd": "hd/partykeanu.gif",
+    "name": "Party Keanu"
+  },
+  {
+    "hd": "hd/partygeeko.gif",
+    "name": "Party Geeko",
+    "tip": "the Geeko insists, too"
+  },
+  {
+    "hd": "hd/bugparrot.gif",
+    "name": "Party BUg",
+    "tip": "It's not a bug, it's a feature"
+  },
+  {
+    "hd": "hd/partyblobcat.gif",
+    "name": "Party Blob Cat"
+  },
+  {
+    "gif": "cursedparrot.gif",
+    "name": "Cursed Parrot"
   }
 ]

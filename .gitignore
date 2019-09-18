@@ -3,6 +3,8 @@ node_modules/
 parrots.zip
 guests.zip
 dist/
+still/
+.cache/
 
 # Created by https://www.gitignore.io/api/vim,osx
 
@@ -52,3 +54,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 .ropeproject
+
+# VS Code
+.vscode
+
+# Chromedriver
+Chromedriver.exe

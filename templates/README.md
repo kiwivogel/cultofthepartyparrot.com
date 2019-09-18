@@ -1,6 +1,7 @@
 # [cultofthepartyparrot.com](http://cultofthepartyparrot.com)
 
 [![Build Status](https://travis-ci.org/jmhobbs/cultofthepartyparrot.com.svg?branch=master)](https://travis-ci.org/jmhobbs/cultofthepartyparrot.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a923b5c1-d312-4530-aa1f-5ab01a588cfc/deploy-status)](https://app.netlify.com/sites/cultofthepartyparrot/deploys)
 
 ```
                           ........:oo:........
@@ -38,7 +39,7 @@
       ``+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmhooh
 ```
 
-The only Slack reaction gif's you'll ever need.
+The only Slack reaction gifs you'll ever need.
 
 ## Thanks
 
@@ -49,14 +50,15 @@ The only Slack reaction gif's you'll ever need.
 # Contributing!
 
  1. Add your parrot gif to `parrots/` and append an entry to `parrots.json`
+ 1. Make sure your parrot gif file is named [name]parrot.gif in all lower case e.g. `exampleparrot.gif`
  1. Open a PR
  1. PARTY
 
 # Deploying!
 
  1. `npm install`
- 1. `gulp build`
- 1. Upload it somewhere!
+ 1. `bash make build`
+ 1. Upload the contents of `dist/` somewhere!
 
 # Automated Upload
 
