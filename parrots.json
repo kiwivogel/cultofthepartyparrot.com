@@ -679,5 +679,30 @@
     "hd": "hd/innersourceparrot.gif",
     "name": "InnerSource Parrot",
     "tip": "InnerSource-Commons Parrot"
-  }
+  },
+  {
+    "gif": "asyncparrot.gif",
+    "name": "async Parrot"
+  },
+  {
+    "hd": "hd/meldparrot.gif",
+    "name": "Meld Parrot"
+  },
+  {
+    "gif": "docparrot.gif",
+    "name": "Doc Parrot",
+    "tip": "Or any medical professional really..."
+  },
+  {
+    "hd": "hd/rythmicalparrot.gif",
+    "name": "Rythmical Parrot"
+  },
+  {
+    "gif": "exceptionallyfastparrot.gif",
+    "name": "Exceptionally Fast Parrot"
+  },
+	{
+		"hd": "hd/wfhparrot.gif",
+		"name": "Work from Home Parrot"
+	} 
 ]
